@@ -1,6 +1,5 @@
 def main():
     file_name = input("File name: ").strip().lower()
-
     if file_name.endswith(".gif"):
         print("image/gif")
     elif file_name.endswith(".jpg") or file_name.endswith(".jpeg"):
